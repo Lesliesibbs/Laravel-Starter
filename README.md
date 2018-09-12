@@ -49,7 +49,7 @@ php artisan auth:permission Comment --remove
 ```
 
 ### Author
-Created by [QCode.in](http://www.qcode.in)
+Leslie Sibanda
 
 ## License
 
