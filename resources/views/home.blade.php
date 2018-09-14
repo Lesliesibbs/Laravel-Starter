@@ -2,6 +2,7 @@
 
 @section('content')
 <!-- Bread crumb -->
+
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
                     <h3 class="text-primary">Dashboard</h3> </div>
@@ -121,6 +122,11 @@
 
 
                 <!-- End PAge Content -->
+                @auth
+                  <input type="test" readonly="readonly"
+                         value="{{ url('/') . '/?ref=' . Auth::user()->id }}">
+                @endauth
+
             </div>
             <!-- End Container fluid  -->
 

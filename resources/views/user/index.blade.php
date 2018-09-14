@@ -23,6 +23,7 @@
                 <th>Email</th>
                 <th>Role</th>
                 <th>Created At</th>
+                <th>Referral Code</th>
                 @can('edit_users', 'delete_users')
                 <th class="text-center">Actions</th>
                 @endcan
@@ -38,6 +39,7 @@
                     <td>{{ $item->created_at->toFormattedDateString() }}</td>
 
                     @can('edit_users')
+                    <td>{{ $item->referred_by }}</td>
                     <td class="text-center">
                         @include('shared._actions', [
                             'entity' => 'users',

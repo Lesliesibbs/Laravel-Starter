@@ -88,7 +88,7 @@
 
                 <div class="content">
                     <div class="title m-b-md">
-                        Laravel Starter <br> <small>Auth Role Permissions</small>
+                        Laravel <br> <small>Role Permissions</small>
                     </div>
 
                 </div>
