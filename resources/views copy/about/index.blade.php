@@ -12,6 +12,7 @@
 				<video autoplay loop="true" muted class="embed-responsive-item" width="1280" height="720">
 								<source src="videos/meeting.mp4" type=video/mp4>
 						</video>
+						
 			</div>
 
 
