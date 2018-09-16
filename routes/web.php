@@ -17,10 +17,22 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'AdminController@index')->name('admin');
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/about', 'AboutController@index')->name('about');
+
+Route::get('/contact', 'ContactController@index')->name('contact');
+
+Route::get('/login-register', 'LoginRegisterController@index')->name('login-register');
+
 
 Route::group( ['middleware' => ['auth']], function() {
     Route::resource('users', 'UserController');
     Route::resource('roles', 'RoleController');
     Route::resource('posts', 'PostController');
+    Route::resource('profile', 'ProfileController');
+    Route::resource('competition', 'CompetitionController');
+    Route::resource('payments', 'PaymentsController');
 });
