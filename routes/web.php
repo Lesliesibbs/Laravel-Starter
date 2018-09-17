@@ -21,6 +21,10 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 
 Route::get('/', 'HomeController@index');
 
+Route::get('/admin-profile', 'AdminProfileController@index')->name('admin-profile');
+
+Route::get('/index', 'AdminController@show');
+
 Route::get('/about', 'AboutController@index')->name('about');
 
 Route::get('/contact', 'ContactController@index')->name('contact');
