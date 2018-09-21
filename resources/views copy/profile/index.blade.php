@@ -67,13 +67,13 @@
 					<input type="text">{{ Auth::user()->name }}
 
 					<label>Your Title</label>
-					<input value="Agent In New York" type="text">
+					<input type="text">{{ Auth::user()->title }}
 
 					<label>Phone</label>
-					<input value="(123) 123-456" type="text">
+					<input type="text">{{ Auth::user()->phone }}
 
 					<label>Email</label>
-					<input value="jennie@example.com" type="text">
+					<input type="text">{{ Auth::user()->email }}
 
 
 					<h4 class="margin-top-50 margin-bottom-25">About Me</h4>
