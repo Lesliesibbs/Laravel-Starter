@@ -76,7 +76,7 @@
 		</div>
 
 		<!-- Parallax -->
-		<div class="parallax margin-bottom-70" data-background="images/parallax.jpeg" data-color="#36383e" data-color-opacity="0.7" data-img-width="800" data-img-height="505">
+		<div class="parallax margin-bottom-70" data-background="image/parallax.jpeg" data-color="#36383e" data-color-opacity="0.7" data-img-width="800" data-img-height="505">
 
 			<!-- Infobox -->
 			<div class="text-content white-font">

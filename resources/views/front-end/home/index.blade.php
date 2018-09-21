@@ -78,7 +78,7 @@ Holiday4change coming soon! Subscribe now…
 		<!-- Fullwidth Section / End -->
 
 		<!-- Parallax -->
-		<div class="parallax margin-bottom-70" data-background="images/listings-parallax.jpg" data-color="#36383e" data-color-opacity="0.7" data-img-width="800" data-img-height="505">
+		<div class="parallax margin-bottom-70" data-background="image/listings-parallax.jpg" data-color="#36383e" data-color-opacity="0.7" data-img-width="800" data-img-height="505">
 
 			<!-- Infobox -->
 			<div class="text-content white-font">
@@ -120,7 +120,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-4">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular1.jpeg">
+					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular1.jpeg">
 
 						<!-- Badge -->
 						<div class="listing-badges">
@@ -137,7 +137,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-8">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular2.jpeg">
+					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular2.jpeg">
 						<div class="img-box-content visible">
 							<h4>Italy</h4>
 						</div>
@@ -148,7 +148,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-8">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular3.jpeg">
+					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular3.jpeg">
 						<div class="img-box-content visible">
 							<h4>Gibraltar </h4>
 						</div>
@@ -159,7 +159,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-4">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular4.jpeg">
+					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular4.jpeg">
 						<div class="img-box-content visible">
 							<h4>Hawaii</h4>
 						</div>
