@@ -64,7 +64,7 @@
 					<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
 
 					<label>Your Name</label>
-					<input value="Jennie Wilson" type="text">
+					<input type="text">{{ Auth::user()->name }}
 
 					<label>Your Title</label>
 					<input value="Agent In New York" type="text">
