@@ -44,7 +44,7 @@
 						<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
 						<li><a href="/competition"><i class="sl sl-icon-star"></i> Competition</a></li>
 						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Paymentss</a></li>
-						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Invoices</a></li>
+						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> invoices</a></li>
 					</ul>
 
 					<ul class="my-account-nav">
