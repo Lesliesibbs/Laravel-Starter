@@ -40,10 +40,11 @@
 				<div class="my-account-nav-container">
 
 					<ul class="my-account-nav">
-						<li class="sub-nav-title">Manage Account</li>
-						<li><a href="/profile" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
+						<li class="sub-nav-title">Manage Acvfhfcount</li>
+						<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
 						<li><a href="/competition"><i class="sl sl-icon-star"></i> Competition</a></li>
-						<li><a href="/payments"><i class="sl sl-icon-star"></i> Payments</a></li>
+						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Paymentss</a></li>
+						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Invoices</a></li>
 					</ul>
 
 					<ul class="my-account-nav">
@@ -64,16 +65,16 @@
 					<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
 
 					<label>Your Name</label>
-					<input value="Jennie Wilson" type="text">
+					<input value="{{ Auth::user()->name }}" type="text">
 
 					<label>Your Title</label>
-					<input value="Agent In New York" type="text">
+					<input value="{{ Auth::user()->title }}" type="text">
 
 					<label>Phone</label>
-					<input value="(123) 123-456" type="text">
+					<input value="{{ Auth::user()->phone }}" type="text">
 
 					<label>Email</label>
-					<input value="jennie@example.com" type="text">
+					<input value="{{ Auth::user()->email }}" type="text">
 
 
 					<h4 class="margin-top-50 margin-bottom-25">About Me</h4>
