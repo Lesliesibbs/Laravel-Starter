@@ -78,8 +78,7 @@
                             <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/users/5.jpg" alt="user" class="profile-pic margin-right" />{{ Auth::user()->name }}</a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
-                                    <li><a href="profile.html"><i class="ti-user"></i> Profile</a></li>
-                                    <li><a href="email-indox.html"><i class="ti-email"></i> Inbox</a></li>
+                                    <li><a href="{{ route('admin-profile') }}"><i class="ti-user"></i> Profile</a></li>
                                     <li><a href="#"><i class="ti-settings"></i> Setting</a></li>
                                     <li><a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
@@ -105,7 +104,7 @@
                             @can('view_users')
                         <li class="nav-devider"></li>
                         <li class="nav-label">Admin</li>
-                        <li> <a href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a>
+                        <li> <a href="{{ route('admin') }}" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a>
                         </li>
                         @can('view_users')
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Users</span></a>
@@ -128,8 +127,7 @@
                                 <li><a href="email-inbox.html">Inbox</a></li>
                             </ul>
                         </li>
-                        <li> <a href="calendar.html" aria-expanded="false"><i class="fa fa-calendar"></i><span class="hide-menu">Calendar</span></a>
-                        </li>
+
                         @endcan
                         @endif
                     </ul>
@@ -170,6 +168,17 @@
    <script src="{{ asset('js/lib/morris-chart/raphael-min.js') }}"></script>
   <script src="{{ asset('js/lib/morris-chart/morris.js') }}"></script>
   <script src="{{ asset('js/lib/morris-chart/dashboard1-init.js') }}"></script>
+
+<!-- Flot Chart -->
+      <script src="{{ asset('js/lib/flot-chart/jquery.flot.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.tooltip.min.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.resize.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.time.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.pie.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/curvedLines.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/excanvas.min.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.spline.js') }}"></script>
+       <script src="{{ asset('js/lib/flot-chart/flot/jquery.flot.symbol.js') }}"></script>
 
 
 <script src="{{ asset('js/lib/calendar-2/moment.latest.min.js') }}"></script>

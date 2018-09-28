@@ -43,7 +43,7 @@
 						<li class="sub-nav-title">Manage Account</li>
 						<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
 						<li><a href="/competition"><i class="sl sl-icon-star"></i> Competition</a></li>
-						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Payments</a></li>
+						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Paymentss</a></li>
 					</ul>
 
 					<ul class="my-account-nav">
@@ -64,16 +64,16 @@
 					<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
 
 					<label>Your Name</label>
-					<input value="Jennie Wilson" type="text">
+					<input type="text">{{ Auth::user()->name }}
 
 					<label>Your Title</label>
-					<input value="Agent In New York" type="text">
+					<input type="text">{{ Auth::user()->title }}
 
 					<label>Phone</label>
-					<input value="(123) 123-456" type="text">
+					<input type="text">{{ Auth::user()->phone }}
 
 					<label>Email</label>
-					<input value="jennie@example.com" type="text">
+					<input type="text">{{ Auth::user()->email }}
 
 
 					<h4 class="margin-top-50 margin-bottom-25">About Me</h4>
