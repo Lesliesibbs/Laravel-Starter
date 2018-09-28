@@ -40,10 +40,10 @@
 				<div class="my-account-nav-container">
 
 					<ul class="my-account-nav">
-						<li class="sub-nav-title">Manage Acvfhfcount</li>
+						<li class="sub-nav-title">Manage Account</li>
 						<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
 						<li><a href="/competition"><i class="sl sl-icon-star"></i> Competition</a></li>
-						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Paymentss</a></li>
+						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Payments</a></li>
 						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> invoices</a></li>
 					</ul>
 

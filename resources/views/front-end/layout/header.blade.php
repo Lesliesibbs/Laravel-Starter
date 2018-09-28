@@ -60,12 +60,28 @@
       <!-- Right Side Content / End -->
       <div class="right-side">
         <!-- Right Side Content / End -->
-
+        @guest
           <!-- Header Widget -->
           <div class="header-widget">
             <a href="{{ url('login-register') }}" class="sign-in"><i class="fa fa-user"></i> Log In / Register</a>
 
           </div>
+
+          @else
+
+          <!-- User Menu -->
+                    <div class="user-menu">
+                        <div class="user-name"><span><img src="image/agent-03.jpg" alt=""></span>Hi, {{ Auth::user()->name }}</div>
+                        <ul>
+                            <li><a href="/profile"><i class="sl sl-icon-user"></i> My Profile</a></li>
+                            <li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmarks</a></li>
+                            <li><a href="my-properties.html"><i class="sl sl-icon-docs"></i> My Properties</a></li>
+                            <li><a href="index.html"><i class="sl sl-icon-power"></i> Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+          @endguest
           <!-- Header Widget / End -->
 
         <!-- Right Side Content / End -->
