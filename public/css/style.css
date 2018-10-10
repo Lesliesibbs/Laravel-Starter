@@ -3229,7 +3229,7 @@ body #compare-list li div:last-child .clp-title,
 /* Titlebar
 ------------------------------------- */
 #titlebar {
-background-image: url("../images/chairs.png");
+background-image: url("../img/chairs.png");
 	position: relative;
 	padding: 70px 0;
 	margin-bottom: 65px;

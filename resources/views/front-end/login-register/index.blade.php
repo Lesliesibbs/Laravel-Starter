@@ -90,7 +90,7 @@
 							<input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
 						</p>
 					<p class="lost_password">
-						<a href="#" >Lost Your Password?</a>
+						<a href="{{ url('/password/reset') }}" >Lost Your Password?</a>
 					</p>
 
 				</form>

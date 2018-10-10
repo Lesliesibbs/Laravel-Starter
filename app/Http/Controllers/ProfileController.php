@@ -23,6 +23,7 @@ class ProfileController extends Controller
    */
   public function index()
   {
+    // Get all plans from stripe api
 
     return view('front-end.profile.index');
 

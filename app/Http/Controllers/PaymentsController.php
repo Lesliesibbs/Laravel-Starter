@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Plan;
+use Illuminate\Support\Facades\Auth;
 
 class PaymentsController extends Controller
 {
@@ -11,6 +13,12 @@ class PaymentsController extends Controller
    *
    * @return void
    */
+
+   /**
+    * Show the application dashboard.
+    *
+    * @return \Illuminate\Http\Response
+    */
   public function __construct()
   {
       $this->middleware('auth');
@@ -21,10 +29,17 @@ class PaymentsController extends Controller
    *
    * @return \Illuminate\Http\Response
    */
-  public function index()
-  {
+   public function index()
+   {
+       // Get all plans from stripe api
+       $plans = Plan::getStripePlans();
 
-    return view('front-end.payments.index');
+       // Check is subscribed
+       $is_subscribed = Auth::user()->subscribed('main');
 
-  }
+       // If subscribed get the subscription
+       $subscription = Auth::user()->subscription('main');
+
+       return view('front-end.payments.index', compact('plans', 'is_subscribed', 'subscription'));
+   }
 }

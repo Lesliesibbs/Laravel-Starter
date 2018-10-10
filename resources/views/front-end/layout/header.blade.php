@@ -14,7 +14,7 @@
 
         <!-- Logo -->
         <div id="logo">
-          <a href="index.html"><img src="images/logo.png" alt=""></a>
+          <a href="index.html"><img src="img/logo.png" alt=""></a>
         </div>
 
 
@@ -71,12 +71,14 @@
 
           <!-- User Menu -->
                     <div class="user-menu">
-                        <div class="user-name"><span><img src="image/agent-03.jpg" alt=""></span>Hi, {{ Auth::user()->name }}</div>
+                        <div class="user-name"><span></span>Hi, {{ Auth::user()->name }}</div>
                         <ul>
                             <li><a href="/profile"><i class="sl sl-icon-user"></i> My Profile</a></li>
-                            <li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmarks</a></li>
-                            <li><a href="my-properties.html"><i class="sl sl-icon-docs"></i> My Properties</a></li>
-                            <li><a href="index.html"><i class="sl sl-icon-power"></i> Log Out</a></li>
+                            <li><a href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();"><i class="sl sl-icon-power"></i> Logout</a> <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form></li>
                         </ul>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon.ico">
 
     <!-- Bootstrap Core CSS -->
       <link href="{{ asset('css/lib/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
@@ -43,7 +43,7 @@
 <body>
   <!-- Main wrapper  -->
     <div id="main-wrapper">
-      
+
       <!-- header header  -->
         <div class="header">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">

@@ -22,7 +22,7 @@
 						<div class="search-container">
 
 							<!-- Form -->
-							<h2>Find the holiday just for you. </h2>
+							<h2>Enter for a chance to win the right holiday for you. </h2>
 
 
 
@@ -58,13 +58,13 @@
 							<!-- Headline -->
 							<h3 class="headline with-border margin-top-45 margin-bottom-25">Welcome to Holiday4Change</h3>
 
-							<p>If you believe in spending time with your loved ones, developing and building new relationships with different people around the world then we are a company for you, Welcome to Holiday, a company for the people. </p>
+							<p>If you believe in spending time with your loved ones, developing and building new relationships with different people around the world then we are a company for you. Welcome to Holiday4Change, a company for the people. </p>
 							<p>
-								Holiday4change is a family run business with a clear purpose: we exist simply to encourage joy, laughter and happiness to as many people as possible through everything we do. We provide our members holidays anyway in the world from £1 a month.
+								Holiday4change is a family run business with a clear purpose: we exist simply to encourage joy, laughter and happiness to as many people as possible through everything we do. We provide our members a chance to win a £1000 Love2shop holiday gift card.
 
-Holiday’s provided by Thomas Cook through their gift cards. Giving you the power to choose your own destination and capture an experience of a lifetime with your loved ones.
+ Giving you the power to choose your own destination and capture an experience of a lifetime with your loved ones.
 
-Holiday4change coming soon! Subscribe now…
+
 
 							</p>
 						</div>
@@ -88,12 +88,13 @@ Holiday4change coming soon! Subscribe now…
 						<div class="col-sm-6">
 							<h2>It's your journey. We're here to help.</h2>
 							<p>Here is a short video explain How Holiday4Change works in more details. enjoy</p>
+							<h2>£1.59 per month </h2>
+							<p>*Plus £3 joining fee*  </p>
 							<a href="/login-register" class="button margin-top-25">Get Started</a>
 						</div>
 						<div class="col-sm-6">
 							<video  width="600" controls>
-	  <source src="holiday.mp4" type="video/mp4">
-	  <source src="mov_bbb.ogg" type="video/ogg">
+	  <source src="videos/Advert.mp4" type="video/mp4">
 	  Your browser does not support HTML5 video.
 	</video>
 
@@ -109,6 +110,59 @@ Holiday4change coming soon! Subscribe now…
 		</div>
 		<!-- Parallax / End -->
 
+		<section class="fullwidth border-bottom margin-top-0 margin-bottom-0 padding-top-50 padding-bottom-50" data-background-color="#ffffff" style="background: rgb(255, 255, 255);">
+
+			<!-- Content -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="headline centered margin-bottom-35 margin-top-10">How to Play.</h3>
+					</div>
+
+					<div class="col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box-1 alternative">
+
+							<div class="icon-container">
+								<i class="im im-icon-Checked-User"></i>
+							</div>
+
+							<h3>Step 1</h3>
+							<p>Be on our competition page at 7pm on the first Tuesday of each month. *competition is open for 10 days including Saturdays and Sundays* </p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box-1 alternative">
+
+							<div class="icon-container">
+								<i class="im im-icon-Target"></i>
+							</div>
+
+							<h3>Step 2</h3>
+							<p>Play spot the destination – how to play, there will be five multiple choice questions where you will be shown one image for each question with 4 different answer options. All you have to do is select the right answer. </p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box-1 alternative">
+
+							<div class="icon-container">
+								<i class="im im-icon-Palm-Tree"></i>
+							</div>
+
+							<h3>Step 3</h3>
+							<p>Winner will be randomly selected by the public. Best of Luck.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
 		<!-- Container -->
 		<div class="container">
 			<div class="row">
@@ -120,7 +174,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-4">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular1.jpeg">
+					<a  class="img-box" data-background-image="img/popular1.jpeg">
 
 						<!-- Badge -->
 						<div class="listing-badges">
@@ -137,7 +191,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-8">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular2.jpeg">
+					<a  class="img-box" data-background-image="img/popular2.jpeg">
 						<div class="img-box-content visible">
 							<h4>Italy</h4>
 						</div>
@@ -148,7 +202,7 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-8">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular3.jpeg">
+					<a  class="img-box" data-background-image="img/popular3.jpeg">
 						<div class="img-box-content visible">
 							<h4>Gibraltar </h4>
 						</div>
@@ -159,9 +213,9 @@ Holiday4change coming soon! Subscribe now…
 				<div class="col-md-4">
 
 					<!-- Image Box -->
-					<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="image/popular4.jpeg">
+					<a class="img-box" data-background-image="img/popular4.jpeg">
 						<div class="img-box-content visible">
-							<h4>Hawaii</h4>
+							<h4>Paris</h4>
 						</div>
 					</a>
 

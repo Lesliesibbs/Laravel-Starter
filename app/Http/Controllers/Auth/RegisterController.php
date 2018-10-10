@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Cookie;
+use App\Mail\WelcomeMail;
+use Illuminate\Support\Facades\Mail;
 
 class RegisterController extends Controller
 {
@@ -28,7 +30,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin';
+    protected $redirectTo = '/profile';
 
     /**
      * Create a new controller instance.
@@ -64,13 +66,15 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
           $referred_by = Cookie::get('referral');
-          
+
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             'referred_by' => $referred_by,
         ]);
+
+         Mail::to($data['email'])->send(new WelcomeMail($user));
 
         // assign user role
         $user->assignRole('User');

@@ -5,11 +5,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 col-sm-6">
-        <img class="footer-logo" src="images/logo.png" alt="">
+        <img class="footer-logo" src="img/logo.png" alt="">
         <br><br>
         <p>
-          Holiday4Change is a business which allows individuals to be able to get a luxury holiday anywhere in the world for a pound. The idea is simple, you get people to pay a pound a month, and you collect that entire amount and pay for a family to go on holiday
-          anyway in the world.
+          Holiday4Change is a business which allows individuals to be able to get a luxury holiday anywhere in the world for a £1.59.
         </p>
       </div>
 
@@ -21,8 +20,8 @@
         </ul>
 
         <ul class="footer-links">
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         <div class="clearfix"></div>
       </div>
@@ -30,7 +29,7 @@
       <div class="col-md-3  col-sm-12">
         <h4>Contact Us</h4>
         <div class="text-widget">
-          <span>5 Meadow Lane, NG2 3HD</span> <br> Phone: <span>01223 245698</span><br> E-Mail:
+          <span>Unit 1 Tudor Court, Banks Yard, Nottingham</span> <br> Phone: <span>01223 245698</span><br> E-Mail:
           <span> <a href="#">info@holiday4change.co.uk</a> </span><br>
         </div>
 
@@ -47,7 +46,7 @@
     <!-- Copyright -->
     <div class="row">
       <div class="col-md-12">
-        <div class="copyrights">© 2018 Holiday4Change. All Rights Reserved. <br /> We Are ©Affinity.Nwwlane</div>
+        <div class="copyrights">© 2018 Holiday4Change. All Rights Reserved. <br /> We Are ©Nwwlane</div>
       </div>
     </div>
   </div>

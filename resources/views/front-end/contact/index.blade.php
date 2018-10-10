@@ -20,9 +20,9 @@
 			<div class="office-address">
 				<h3>Our Office</h3>
 				<ul>
-					<li>45 Park Avenue, Apt. 303</li>
-					<li>New York, NY 10016</li>
-					<li>Phone (123) 123-456 </li>
+					<li>Unit 1 Tudor Court, Banks Yard</li>
+					<li>Nottingham, NG6 8FE</li>
+					<li>01223 245698</li>
 				</ul>
 			</div>
 		</div>
@@ -46,13 +46,10 @@
 
 			<!-- Contact Details -->
 			<div class="sidebar-textbox">
-				<p>Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services.</p>
 
 				<ul class="contact-details">
-					<li><i class="im im-icon-Phone-2"></i> <strong>Phone:</strong> <span>(123) 123-456 </span></li>
-					<li><i class="im im-icon-Fax"></i> <strong>Fax:</strong> <span>(123) 123-456 </span></li>
-					<li><i class="im im-icon-Globe"></i> <strong>Web:</strong> <span><a href="#">www.example.com</a></span></li>
-					<li><i class="im im-icon-Envelope"></i> <strong>E-Mail:</strong> <span><a href="#">office@example.com</a></span></li>
+					<li><i class="im im-icon-Phone-2"></i> <strong>Phone:</strong> <span> 01223 245698</span></li>
+					<li><i class="im im-icon-Envelope"></i> <strong>E-Mail:</strong> <span><a >info@holiday4change.co.uk </a></span></li>
 				</ul>
 			</div>
 

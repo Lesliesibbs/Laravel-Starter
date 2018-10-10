@@ -41,15 +41,19 @@
 
 					<ul class="my-account-nav">
 						<li class="sub-nav-title">Manage Account</li>
-						<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
-						<li><a href="/competition"><i class="sl sl-icon-star"></i> Competition</a></li>
-						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Payments</a></li>
-						<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> invoices</a></li>
+						<li><a href="/profile" class="current"><i class="sl sl-icon-user"></i> My Profile</a></li>
+						<li><a href="/competition"><i class="sl sl-icon-badge"></i> Competition</a></li>
+						<li><a href="/payments"><i class="sl sl-icon-wallet"></i> Payments</a></li>
 					</ul>
 
 					<ul class="my-account-nav">
-						<li><a href="change-password.html"><i class="sl sl-icon-lock"></i> Change Password</a></li>
-						<li><a href="#"><i class="sl sl-icon-power"></i> Log Out</a></li>
+						<li><a href="/faq"><i class="sl sl-icon-key"></i> FAQ's</a></li>
+						<li><a href="/privacy"><i class="sl sl-icon-notebook"></i> Privacy Policy</a></li>
+						<li><a href="{{ route('logout') }}"
+										onclick="event.preventDefault();
+														 document.getElementById('logout-form').submit();"><i class="sl sl-icon-power"></i> Logout</a> <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+										{{ csrf_field() }}
+								</form></li>
 					</ul>
 
 				</div>
@@ -99,19 +103,7 @@
 					<button class="button margin-top-20 margin-bottom-20">Save Changes</button>
 				</div>
 
-				<div class="col-md-4">
-					<!-- Avatar -->
-					<div class="edit-profile-photo">
-						<img src="images/agent-02.jpg" alt="">
-						<div class="change-photo-btn">
-							<div class="photoUpload">
-							    <span><i class="fa fa-upload"></i> Upload Photo</span>
-							    <input type="file" class="upload" />
-							</div>
-						</div>
-					</div>
 
-				</div>
 
 
 			</div>

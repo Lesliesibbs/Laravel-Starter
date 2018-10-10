@@ -10,11 +10,19 @@
 
 	<!-- CSS
 ================================================== -->
-	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/colors/main.css" id="colors">
 	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 
+	<script type="text/javascript">
+	function triggerModal(avalue) {
 
+		document.getElementById('the_id').value = avalue;
+
+		$('#myModal1').modal();
+
+	}
+	</script>
 </head>
 
 <body>
